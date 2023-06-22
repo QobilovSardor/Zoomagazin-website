@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/slick.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Zoomagazin</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<nav class="navbar df ai-center jc-between">
+					<div class="navbar-left df ai-center">
+						<a href="#!" class="logo"><img src="images/logo.png" alt=""></a>
+						<a href="#!" class="catalog-btn btn-blue">
+							<span class="text catalog-btn-text">Каталог</span>
+							<span class="icon df ai-center">
+								<span class="one dib pr"></span>
+								<span class="two dib pr"></span>
+								<span class="three dib pr"></span>
+							</span>
+						</a>
+					</div>
+					<div class="navbar-search pr">
+						<form action="#!" id="search">
+							<input type="text" name="seaarch" id="search" placeholder="Поиск">
+							<button type="submit" class="pa"><img src="images/search-icon.svg" alt=""></button>
+						</form>
+					</div>
+					<div class="navbar-right df ai-center">
+						<a href="#!" class="nav-favorite df ai-center hide-search">
+							<img src="images/search-icon.svg" alt="">
+						</a>
+						<a href="#!" class="nav-favorite df ai-center">
+							<img src="images/bookmark-icon.svg" alt="">
+							<span class="text fs12 hide-text">Избранное</span>
+						</a>
+						<a href="#!" class="nav-basket df ai-center">
+							<img src="images/basket-icon.svg" alt="">
+							<span class="text fs12 hide-text">Корзина</span>
+						</a>
+						<a href="#!" class="login btn-blue login-dn">Войти</a>
+						<a class="header-user__img" href="#">
+							<img src="images/header-user.svg" alt="user img">
+						</a>
+					</div>
+				</nav>
+
+				<div class="header-animals mb25">
+					<div class="row jc-between">
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img1.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для кошек</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img2.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для котят</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img3.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для собак</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img4.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для щенят</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img5.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для грызунов</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img6.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для рептилий</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img7.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для рыб</span>
+							</a>
+						</div>
+						<div class="col-lg pr">
+							<a href="#!" class="animal-item df ai-center">
+								<div class="animal-img">
+									<img src="images/top-img8.svg" alt="">
+								</div>
+								<span class="animal-name fw500 mt10">Для птиц</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="menu-links pt25">
+			<div class="container">
+				<div class="df ai-center">
+					<div class="menu-links__content df ai-center">
+						<a class="menu-links-item fs12 fw400" href="#">Главная</a>
+						<span>
+							<img src="images/next-raius.svg" alt="">
+						</span>
+					</div>
+					<div class="menu-links__content df ai-center">
+						<a class="menu-links-item fs12 fw400" href="#">Каталог</a>
+						<span>
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M10.4746 7.99993L6.46794 3.99326L5.52527 4.93593L8.59194 8.0026L5.52527 11.0693L6.46794 12.0066L10.4746 7.99993Z"
+									fill="#4B4B4B" />
+								<rect x="15.5" y="15.5" width="15" height="15" rx="7.5"
+									transform="rotate(180 15.5 15.5)" stroke="#4B4B4B" />
+							</svg>
+						</span>
+					</div>
+					<div class="menu-links__content df ai-center">
+						<a class="menu-links-item fs12 fw400" href="#">Для грызунов</a>
+						<span>
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M10.4746 7.99993L6.46794 3.99326L5.52527 4.93593L8.59194 8.0026L5.52527 11.0693L6.46794 12.0066L10.4746 7.99993Z"
+									fill="#4B4B4B" />
+								<rect x="15.5" y="15.5" width="15" height="15" rx="7.5"
+									transform="rotate(180 15.5 15.5)" stroke="#4B4B4B" />
+							</svg>
+						</span>
+					</div>
+					<div class="menu-links__content df ai-center">
+						<a class="menu-links-item fs12 fw400" href="#">Наполнители для туалетов грызунов и хорьков</a>
+					</div>
+				</div>
+				<div class="title-content mt25">
+					<h2 class="title-text">Наполнители для туалетов грызунов и хорьков</h2>
+				</div>
+				<div class="df jc-between ai-center mt10">
+					<div class="title-content__info">
+						<p>Найдено 111 товаров</p>
+						<button class="btn-outline-blue mt20 df ai-center" id="media-block__btn">
+							Фильтр &nbsp;
+							<svg class="setting-icon" width="20" height="18" viewBox="0 0 20 18" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5 18H3V16H0V14H3V12H5V18ZM20 16H7V14H20V16ZM15 12H13V10H0V8H13V6.012H15V12ZM20 10H17V8H20V10ZM9 6H7V4H0V2H7V0H9V6ZM20 4H11V2H20V4Z"
+									fill="white" />
+							</svg>
+						</button>
+					</div>
+					<div class="form-select__box">
+						<select name="products" id="products" class="form-select pt10 pb10 br3">
+							<option value="По популярности">По популярности</option>
+							<option value="Сначала дешевые">Сначала дешевые</option>
+							<option value="Сначала дорогие">Сначала дорогие</option>
+							<option value="По популярности">По популярности</option>
+							<option value="По рейтингу">По рейтингу</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="products">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-4" id="media-col">
+						<div class="filter-content">
+							<div class="filter-content__box pr">
+								<h4 class="filter-content__text fs14 fw500">Фильтры</h4>
+								<span class="filter-content__line"></span>
+							</div>
+							<div class="filter-content__box pr pb25 pt25">
+								<div class="filter-content__box">
+									<h4 class="filter-content__text fs14 fw500">Цена, ₽</h4>
+									<div class="range-slider mt5">
+										<div class="df">
+											<input class="min" type="number" value="2000" min="0" max="120000" />
+											<input class="max" type="number" value="5000" min="0" max="120000" />
+										</div>
+										<input value="25000" min="0" max="120000" step="500" type="range" />
+										<input value="50000" min="0" max="120000" step="500" type="range" />
+									</div>
+								</div>
+							</div>
+							<div class="filter-content__box pr pb25 pt25">
+								<h4 class="filter-content__text fs14 fw500">Доступность</h4>
+								<div class="form">
+									<div class="df">
+										<label class="fs14 fw400 control control--radio" for="a">Под заказ
+											<input type="radio" name="radio" checked="checked" id="a" />
+											<div class="control__indicator"></div>
+										</label>
+									</div>
+									<div class="df">
+										<label class="fs14 fw400 control control--radio" for="b">Доставка
+											<input type="radio" name="radio" checked="checked" id="b" />
+											<div class="control__indicator"></div>
+										</label>
+									</div>
+									<div class="df">
+										<label class="fs14 fw400 control control--radio" for="c">Самовывоз
+											<input type="radio" name="radio" checked="checked" id="c" />
+											<div class="control__indicator"></div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter-content__box pr pb25 pt25">
+								<h4 class="filter-content__text fs14 fw500">Назначение</h4>
+								<div class="form">
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="d">
+											<label class="fs14 fw400" for="d">
+												<span class="pl10">Бумажный наполнитель</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="e">
+											<label class="fs14 fw400" for="e">
+												<span class="pl10">Бумажный наполнитель</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="f">
+											<label class="fs14 fw400" for="f">
+												<span class="pl10">Бумажный наполнитель</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="g">
+											<label class="fs14 fw400" for="g">
+												<span class="pl10">Бумажный наполнитель</span>
+											</label>
+										</div>
+									</div>
+									<div class="df ai-center">
+										<a class="mr10 fs14 fw500 see" href="#">Показать все</a>
+										<svg width="8" height="4" viewBox="0 0 8 4" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.00016 3.66659L7.3335 0.333252L0.66683 0.333252L4.00016 3.66659Z"
+												fill="#006FD6" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class=" pr pb25 pt25 aftanom">
+								<h4 class="filter-content__text fs14 fw500">Бред</h4>
+								<div class="form">
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="i">
+											<label class="fs14 fw400" for="i">
+												<span class="pl10">Домоседы</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="p">
+											<label class="fs14 fw400" for="p">
+												<span class="pl10">Домоседы</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="q">
+											<label class="fs14 fw400" for="q">
+												<span class="pl10">Домоседы</span>
+											</label>
+										</div>
+									</div>
+									<div class="df">
+										<div class="form-group">
+											<input type="checkbox" id="l">
+											<label class="fs14 fw400" for="l">
+												<span class="pl10">Домоседы</span>
+											</label>
+										</div>
+									</div>
+									<div class="df ai-center">
+										<a class="mr10 fs14 fw500 see" href="#">Показать все</a>
+										<svg width="8" height="4" viewBox="0 0 8 4" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.00016 3.66659L7.3335 0.333252L0.66683 0.333252L4.00016 3.66659Z"
+												fill="#006FD6" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-9 col-md-9 col-sm-8">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-1.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель для грызунов кукурузный
+												</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-2.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Наполнитель гранулированный для
+													кошачьего туалета, древесный комкующийся, 10л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-12 mb10">
+								<div class="product-card bg-white br10 pr pl15 pr15 pb15 pt10">
+									<div class="product-star df ai-center pa">
+										<img src="images/star-icon.svg" alt="">
+										<span class="fw400 fs14 ml5">4.9</span>
+									</div>
+									<div class="product-save__icon pa">
+										<svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.5 0.5H12.5C12.7761 0.5 13 0.723858 13 1V17.5619C13 18.009 12.458 18.2313 12.144 17.913L8.268 13.9828C7.69475 13.4015 6.7619 13.3854 6.16895 13.9466L1.84369 18.0399C1.52495 18.3416 1 18.1156 1 17.6768V1C1 0.723858 1.22386 0.5 1.5 0.5Z"
+												stroke="#0D1E2F" />
+										</svg>
+									</div>
+
+									<div class="product-in df ai-start jc-between">
+										<div class="product-picture">
+											<img class="product-img" src="images/product-img-3.png" alt="product-img">
+										</div>
+										<div>
+											<div class="product-card__content">
+												<h4 class="fw400 fs15 tal pt15 pb25">Мир чудес Гранула гипоаллергенная
+													из лиственных пород древесины 4,5л</h4>
+											</div>
+											<div class="product-card__footer df ai-center jc-between">
+												<button class="btn-blue">В корзину</button>
+												<span class="fs24 fw400 product-price">575₽</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="carosuel-pagination mt40 df ai-center jc-end">
+					<div class="prev-btn">
+						<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.53422 0.514374L0.0491686 8.99938L8.53422 17.4844L9.94922 16.0704L2.87717 8.99938L9.94922 1.92838L8.53422 0.514374Z"
+								fill="#ACACAC" />
+						</svg>
+					</div>
+					<div class="slider-number df ml30 mr30">
+						<div class="fs16 fw600 active">1</div>
+						<div class="fs16 fw600">2</div>
+						<div class="fs16 fw600">3</div>
+						<div class="fs16 fw600">4</div>
+					</div>
+					<div class="next-btn">
+						<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.46578 17.4856L9.95083 9.00062L1.46578 0.515625L0.0507812 1.92962L7.12283 9.00062L0.0507812 16.0716L1.46578 17.4856Z"
+								fill="#0176C3" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="footer-content">
+							<img src="images/logo.png" alt="logo">
+							<ul>
+								<li>
+									<a class="fw500 fs15 mt10 mb15" href="#">Каталог</a>
+								</li>
+								<li>
+									<a class="fw500 fs15 mb15" href="#">Партнерская программа</a>
+								</li>
+								<li>
+									<a class="fw500 fs15 mb15" href="#">Подробнее о нас</a>
+								</li>
+								<li>
+									<a class="fw500 fs15 mb15" href="#">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="footer-content">
+							<h4 class="fs15 fw500">Остались вопросы? Напишите нам</h4>
+							<a class="mt10 mb10 fw600 fs20" href="#">korablik@yandex.ru</a>
+							<div class="icons df">
+								<a href="#">
+									<img src="images/vk-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/ok-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/twitter-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/telegram.png" alt="">
+								</a>
+							</div>
+							<h4 class="fs15 fw500 mt10">Мы на связи с 9 до 18 часов <br> (GMT +03:00)</h4>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="footer-content">
+							<h4 class="fs15 fw500">Бесплатный звонок по России</h4>
+							<a class="fw600 fs20 mb15 mt5" href="#">8 (988) 545-55-55</a>
+							<h4 class="fs15 fw500 mb10">Мы в социальных сетях</h4>
+							<div class="icons df ai-center">
+								<a href="#">
+									<img src="images/vk-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/ok-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/twitter-icon.svg" alt="">
+								</a>
+								<a href="#">
+									<img src="images/telegram.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
